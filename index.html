@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    
+    <title>Projoeto de Redação ENEM</title>
+</head>
+<body>
+      
+  <!-- Modal -->
+  <div class=" modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="staticBackdropLabel">Atenção!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h1>Selecione uma opção</h1> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-danger" data-bs-dismiss="modal">OK</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <header class="container top">
+        <h1>Redação Enem</h1>
+        <h2>Projeto de texto</h2>
+        <div class="barra"></div>
+    </header>   
+
+    <main class="container main">
+        <div class="question_area row align-items-center">
+            <h2 class="question"></h2>          
+            
+            <label for="">                
+                <div class="options"> </div>
+            </label>
+           
+            <button id="btAvancar" class="btn btn-success">Proximo</button>  
+        </div>
+
+        <div class="container success_info">
+            <h2 class="congratulations">Você selecionou os seguintes itens:</h2>
+            <div class="escolhas"></div>   
+            <button id="btReiniciar" class="btn btn-success">Reiniciar</button>         
+        </div>
+
+    </main>
+
+
+    <script src="js/perguntas.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

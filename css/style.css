@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.top {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    background-color: #025949;
+}
+.top h1, .top h2 {
+    font-size: 5rem;
+}
+.main{
+    text-align: start;
+    margin-top: 2rem;
+    display: flex;    
+    justify-content: center;
+    align-items: center;   
+    max-width: 100%;    
+}
+.question{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+.container label {
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.container .options label:hover {
+    background-color: #038C73;
+    cursor: pointer;
+}
+
+.container label input {
+    margin-right: .8rem;    
+}
+.question_area{
+    width: 500px;
+    
+}
+
+ 
+.btn {
+    max-width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.escolhas p {
+    font-size: 1.5rem;
+    text-align: start;
+    border-bottom: 1px solid;
+}
+.congratulations {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#btReiniciar {
+    margin-top: 3rem;
+}
+@media (max-width: 600px) {
+    .top h1, .top h2 {
+        font-size: 3rem;
+    } 
+    .question{
+     
+        font-size: 2rem;
+    }
+    .container label {
+        
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
