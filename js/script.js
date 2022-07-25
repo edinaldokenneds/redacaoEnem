@@ -1,16 +1,21 @@
 let perguntaAtual = 0;
 let opt = [];
 let btInicar = document.getElementById('btInicar');
-mostrarPergunta(); 
+
+let tema = null; 
+
 
 btInicar.addEventListener('click', ()=>{
     let paginaTemaRedacao = document.querySelector('.temaRedacao');
     paginaTemaRedacao.style.display = 'none'
+    tema = document.getElementById('tema').value;
+    mostrarPergunta(); 
 })
 function mostrarPergunta() {
-    if(perguntas[perguntaAtual]) {
-        let perg = perguntas[perguntaAtual];
-        let pct = Math.floor((perguntaAtual / perguntas.length) * 100);
+
+    if(perguntas[tema][perguntaAtual]) {
+        let perg = perguntas[tema][perguntaAtual];
+        let pct = Math.floor((perguntaAtual / perguntas[tema].length) * 100);
 
         document.querySelector('.barra').style.width = `${pct}%`;        
         document.querySelector('.success_info').style.display = 'none';
@@ -97,3 +102,4 @@ btVoltar.addEventListener('click', () => {
     mostrarPergunta();
     opt.splice(-1, 1);    
 });
+
