@@ -110,7 +110,10 @@ html {
 #tema {
     max-width: 50%;
 }
-
+.tema {
+    text-align: start;
+    font-size: 2rem;
+}
 
 
 @media (max-width: 600px) {
