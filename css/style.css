@@ -55,6 +55,7 @@ html {
 .btns{
     display: flex;
     justify-content: center;
+    margin-top: 5rem;
 }
 .btn {
     max-width: 100%;
@@ -106,6 +107,7 @@ html {
 .nomeApp span {
     font-style: italic;
 }
+
 
 
 @media (max-width: 600px) {
