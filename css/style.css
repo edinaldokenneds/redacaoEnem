@@ -1,10 +1,12 @@
 *{
     box-sizing: border-box;
+    
 }
 
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    
 }
 .top {
     text-align: center;
@@ -107,14 +109,13 @@ html {
 .nomeApp span {
     font-style: italic;
 }
-#tema {
-    max-width: 50%;
+#tema{
+    width: 100%;
 }
 .tema {
     text-align: start;
     font-size: 2rem;
 }
-
 .temacontainer{
     width: 50%;
 }
@@ -132,7 +133,7 @@ html {
         padding: 1rem;
         font-size: 1.5rem;
     }
-     .temacontainer{
+    .temacontainer{
         width: 100%;
     }
 }
