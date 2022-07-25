@@ -107,6 +107,9 @@ html {
 .nomeApp span {
     font-style: italic;
 }
+#tema {
+    max-width: 50%;
+}
 
 
 
