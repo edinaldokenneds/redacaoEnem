@@ -93,15 +93,18 @@ html {
     text-align: center;
     align-items: center;
     color: white;
-    background-color: #038C73;    
+    background-color: #2f4c2d;    
 }
 .nomeApp {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;    
     border: .5rem solid;
     padding: 1.5rem;
     font-size: 3rem;
-    transform: rotate(-30deg);
+    border: none;
+ 
+}
+.nomeApp img {
+    width: 250px;
 }
 .nomeApp h1 {
     font-size: 3rem;
