@@ -562,7 +562,7 @@ let perguntas = [
         {        
             pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: ARTICULADORES</span>',        
             options: [
-                'INFELIZMENTE', 
+                'Testes lindo', 
                 'ENTRETANTO', 
                 'PORÉM', 
                 'ASSIM', 
