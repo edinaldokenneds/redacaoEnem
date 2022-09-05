@@ -553,52 +553,32 @@ let perguntas = [
         {
             pergunta: 'Introdução <br> <span>1.1 CONTEXTUALIZAÇÃO </span>',
             options: [
-                'teste 1',
-                'teste 2',
-                'teste 3',
-                'Teste 4'
+                'CONSTITUIÇÃO FEDERAL DE 1988',
+                'CURTA METRAGEM A ILHA',
+                'DOCUMENTÁRIO “130 KM – VIDA AO EXTREMO”',
+            
             ]        
         },
         {        
             pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: ARTICULADORES</span>',        
             options: [
-                'Testes lindo', 
-                'ENTRETANTO', 
-                'PORÉM', 
-                'ASSIM', 
-                'DESSE MODO'
+                'ARTICULADORES: INFELIZMENTE, ENTRETANTO, PORÉM, ASSIM, DESSE MODO.', 
+                'LOCAL: BRASIL, PAÍS, NAÇÃO BRASILEIRA.', 
+                'TEMPO: HODIERNAMENTE, DIAS ATUAIS, ATUALMENTE.', 
+                'VERBO: REPRESENTA, É, CONFIGURA.', 
+                
             ]
         },
-        {
-            pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: LOCAL</span>',
-            options: [
-                'BRASIL', 
-                'PAÍS',
-                'NAÇÃO BRASILEIRA'
-            ]
-        },
-        {
-            pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: TEMPO</span>',
-            options: [
-                'HODIERNAMENTE',
-                'DIAS ATUAIS', 
-                'ATUALMENTE'
-            ]
-        },
-        {
-            pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: VERBO</span>',
-            options: [
-                'REPRESENTA', 
-                'É', 
-                'CONFIGURA'
-            ]
-        },
+        
+       
         {
             pergunta: 'Introdução <br> <span> 1.3 TESE </span>',
             options: [
                 'NEGLIGÊNCIA GOVERNAMENTAL',
-                'FALTA DE INFORMAÇÃO',
-                'AUSÊNCIA DE DIÁLOGO NA FAMÍLIA'
+                'FALTA DE PLANEJAMENTO URBANO',
+                'A MÁ QUALIDADE DO TRANSPORTE PÚBLICO',
+                'INCENTIVO AO CONSUMO',
+                'A CARROCRACIA',
             ]       
         },
         {
@@ -614,20 +594,24 @@ let perguntas = [
             pergunta: 'DESENVOLVIMENTO 1 <br> <span> 2.2 RETOMADA DA TESE </span>',
             options: [
                 'FALTA DE INVESTIMENTO ESTATAL',
-                'DESINFORMAÇÃO',
-                'AUSÊNCIA DE COMUNICAÇÃO',
+                'CONSUMISMO EXAGERADO',
+                'A SUPREMACIA DOS CARROS NOS ESPAÇOS DAS CIDADES',
             ]        
         },
         {
             pergunta: 'DESENVOLVIMENTO 1 <br> <span> 2.3 EXEMPLIFICAÇÃO </span>',
             options: [
-                '44 NASCIMETO PARA CADA MIL ADOLESCENTE (MINISTÉRIO DA SAÚDE)',
-                'THOMAS HOBBES “O ESTADO É RESPONSÁVEL PELO BEM-ESTAR SOCIAL DE UM POVO',
-                'IMMANUEL KANT “O HOMEM É AQUILO QUE A EDUCAÇÃO FAZ DELE”'
+                'FRANCIS BACON(FILÓSOFO INGLÊS): “O HOMEM DEVE CRIAR AS OPORTUNIDADES E NÃO SOMENTE ENCONTRÁ-LAS.”',
+                'KARL MARX: O CAPITALISMO PRIORIZARIA LUCROS EM DETRIMENTO DE VALORES.',
+                'CONSTITUIÇÃO FEDERAL DE 1988',
+                'CURTA METRAGEM “A ILHA”',
+                'DOCUMENTÁRIO “130 KM – VIDA AO EXTREMO”',
+                'MOVIMENTO PASSE LIVRE.',
+                'MÚSICA CONSTRUÇÃO – CHICO BUARQUE'
             ]
         },
         {
-            pergunta: 'DESENVOLVIMENTO 1 <br> <span> 2.4 COMENTÁRIOCONECTIVO </span>',
+            pergunta: 'DESENVOLVIMENTO 1 <br> <span> 2.4 COMENTÁRIO CONECTIVO </span>',
             options: [
                 'DESSE MODO',
                 'ASSIM',
@@ -646,22 +630,17 @@ let perguntas = [
             
             ]
         },
-        {
-            pergunta: 'DESENVOLVIMENTO 1 <br> <span> 3.2 RETOMADA DA TESE </span>',
-            options: [
-                'FALTA DE INVESTIMENTO ESTATAL',
-                'DESINFORMAÇÃO',
-                'AUSÊNCIA DE COMUNICAÇÃO',
-            
-            ]
-        },
+        
         {
             pergunta: 'DESENVOLVIMENTO 2 <br> <span> 3.3 EXEMPLIFICAÇÃO </span>',
             options: [
-                'DIÁRIO DE ANNE FRANK',
-                '70% DAS VÍTIMAS DE ESTUPROS SÃO CRIANÇAS E ADOLESCENTES',
-                'ARISTÓTELES “ TODOS OS HOMENS TÊM, POR NATUREZA, O DESEJO DE CONHECER',
-                'TALCOTT PARSON “A FAMÍLIA É UMA MÁQUINA DE PERSONALIDADE'           
+                'FRANCIS BACON(FILÓSOFO INGLÊS): “O HOMEM DEVE CRIAR AS OPORTUNIDADES E NÃO SOMENTE ENCONTRÁ-LAS.”',
+                'KARL MARX: O CAPITALISMO PRIORIZARIA LUCROS EM DETRIMENTO DE VALORES.',
+                'CONSTITUIÇÃO FEDERAL DE 1988',
+                'CURTA METRAGEM “A ILHA”',
+                'DOCUMENTÁRIO “130 KM – VIDA AO EXTREMO”',
+                'MOVIMENTO PASSE LIVRE.',
+                'MÚSICA CONSTRUÇÃO – CHICO BUARQUE'           
             ]
         },
         {
@@ -686,20 +665,20 @@ let perguntas = [
         {
             pergunta: 'CONCLUSÃO <br> <span> 4.2  AGENTE </span>',
             options: [
-                'MINISTÉRIO DA SAÚDE',
-                'MINISTÉRIO DA EDUCAÇÃO',
-                'ESCOLA',
-                'FAMÍLIA'            
+                'MINISTÉRIO DO DESENVOLVIMENTO REGIONAL',
+                'GOVERNO FEDERAL',
+                'MINISTÉRIO DA INFRAESTRUTURA',
+                'EMPRESAS'            
             ]
         },
         {
             pergunta: 'CONCLUSÃO <br> <span> 4.3 DETALHAMENTO DO AGENTE </span>',
             options: [
-                'ÓRGÃO RESPONSÁVEL PELAS POLÍTICAS PÚBLICAS NA ÁREA DE SAÚDE',
-                'ÓRGÃO RESPONSÁVEL PELAS POLÍTICAS PÚBLICAS NA ÁREA DA EDUCACIONAL',
+                'ÓRGÃO RESPONSÁVEL POR POLÍTICAS PÚBLICAS DE INFRAESTRUTURA URBANA E DE PROMOÇÃO DO DESENVOLVIMENTO REGIONAL E PRODUTIVO.',
+                'ÓRGÃO RESPONSÁVEL POR POLÍTICAS PÚBLICAS DE INFRAESTRUTURA URBANA E DE PROMOÇÃO DO DESENVOLVIMENTO REGIONAL E PRODUTIVO.',
                 'GRANDE DIFUSORA DE INFORMAÇÃO E VEÍCULO FORMADOR DE OPINIÃO',
-                'INSTITUIÇÃO RESPONSÁVEL PELA EDUCAÇÃO PRIMÁRIA DOS INDIVÍDUOS',
-                'ENTIDADE RESPONSÁVEL PELA EDUCAÇÃO FORMAL'            
+                'RESPONSÁVEL PELOS INTERESSES DA ADMINISTRAÇÃO FEDERAL EM TODO TERRITÓRIO NACIONAL',
+                           
             ]
         },
         {
