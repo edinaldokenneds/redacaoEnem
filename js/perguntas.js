@@ -562,15 +562,39 @@ let perguntas = [
         {        
             pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: ARTICULADORES</span>',        
             options: [
-                'ARTICULADORES: INFELIZMENTE, ENTRETANTO, PORÉM, ASSIM, DESSE MODO.', 
-                'LOCAL: BRASIL, PAÍS, NAÇÃO BRASILEIRA.', 
-                'TEMPO: HODIERNAMENTE, DIAS ATUAIS, ATUALMENTE.', 
-                'VERBO: REPRESENTA, É, CONFIGURA.', 
-                
+                'INFELIZMENTE', 
+                'ENTRETANTO', 
+                'PORÉM', 
+                'ASSIM', 
+                'DESSE MODO'
             ]
         },
-        
-       
+        {
+            pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: LOCAL</span>',
+            options: [
+                'BRASIL', 
+                'PAÍS',
+                'NAÇÃO BRASILEIRA'
+            ]
+        },
+        {
+            pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: TEMPO</span>',
+            options: [
+                'HODIERNAMENTE',
+                'DIAS ATUAIS', 
+                'ATUALMENTE'
+            ]
+        },
+        {
+            pergunta: 'Introdução <br> <span> 1.2 APRESENTAÇÃO DO TEMA: VERBO</span>',
+            options: [
+                'REPRESENTA', 
+                'É', 
+                'CONFIGURA'
+            ]
+        },
+              
+    
         {
             pergunta: 'Introdução <br> <span> 1.3 TESE </span>',
             options: [
