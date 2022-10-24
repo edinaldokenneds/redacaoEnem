@@ -738,9 +738,9 @@ let perguntas = [
         {
             pergunta: 'Introdução <br> <span>1.1 CONTEXTUALIZAÇÃO </span>',
             options: [
-                'CONSTITUIÇÃO FEDERAL DE 1988',
-                'CURTA METRAGEM A ILHA',
-                'DOCUMENTÁRIO “130 KM – VIDA AO EXTREMO”',
+                'CONTROL Z” – SÉRIE DA NETFLIX',
+                '“BLACK MIRROR” – SÉRIE DA NETFLIX',
+                'DOCUMENTÁRIO “VOU TE CANCELEI”',
             
             ]        
         },
@@ -783,11 +783,10 @@ let perguntas = [
         {
             pergunta: 'Introdução <br> <span> 1.3 TESE </span>',
             options: [
-                'NEGLIGÊNCIA GOVERNAMENTAL',
-                'FALTA DE PLANEJAMENTO URBANO',
-                'A MÁ QUALIDADE DO TRANSPORTE PÚBLICO',
-                'INCENTIVO AO CONSUMO',
-                'A CARROCRACIA',
+                'A ESCASSA FONTE DE INFORMAÇÕES VERÍDICAS',
+                'A LIVRE EXPOSIÇÃO DE JULGAMENTOS',
+                'FALTA DE EMPATIA DA POPULAÇÃO',
+                'SOCIEDADE NÃO CONSCIENTIZADA SOBRE O USO DAS MÍDIAS SOCIAIS',
             ]       
         },
         {
@@ -796,22 +795,23 @@ let perguntas = [
                 'DIANTE DESSE CENÁRIO',
                 'DIANTE DESSA REALIDADE',
                 'SOB ESSE VIÉS',
-                'NESSA PERSPECTIVA'
+                'NESSA PERSPECTIVA',
             ]        
         },
         {
             pergunta: 'DESENVOLVIMENTO 1 <br> <span> 2.2 RETOMADA DA TESE </span>',
             options: [
-                'FALTA DE INVESTIMENTO ESTATAL',
-                'CONSUMISMO EXAGERADO',
-                'A SUPREMACIA DOS CARROS NOS ESPAÇOS DAS CIDADES',
-            ]        
+                'EXCESSO DE INFORMAÇÕES FALSAS',
+                'TRIBUNAL DA INTERNET',
+                'AS PESSOAS NÃO SE COLOCAM NO LUGAR DAS OUTRAS',
+                'CORPO SOCIAL INDIFERENTE AS CONSEQUÊNCIAS DO USO DAS MÍDIAS SOCIAIS',
+            ]       
         },
         {
             pergunta: 'DESENVOLVIMENTO 1 <br> <span> 2.3 EXEMPLIFICAÇÃO </span>',
             options: [
-                'FRANCIS BACON(FILÓSOFO INGLÊS): “O HOMEM DEVE CRIAR AS OPORTUNIDADES E NÃO SOMENTE ENCONTRÁ-LAS.”',
-                'KARL MARX: O CAPITALISMO PRIORIZARIA LUCROS EM DETRIMENTO DE VALORES.',
+                'BLOGUEIRA DORA FIGUEIREDO: "A GENTE TEM QUE CANCELAR ATITUDES, NÃO PESSOAS”',
+                'PSIQUIATRA GALIANO BRAZUNA; “CRIA-SE UMA IDEIA DE QUE, SE A PESSOA ERROU NAQUELA ATITUDE, LOGO ELA SEMPRE SERÁ DAQUELE JEITO. OU SEJA, DEFINE-SE UMA PESSOA INTEIRA PELO SEU PIOR MOMENTO, E NÃO SE POSSIBILITA UMA CHANCE DE REPARAÇÃO DO ERRO”',
                 'CONSTITUIÇÃO FEDERAL DE 1988',
                 'CURTA METRAGEM “A ILHA”',
                 'DOCUMENTÁRIO “130 KM – VIDA AO EXTREMO”',
